@@ -4,6 +4,7 @@
 
 ```
 yarn
+yarn gulp build
 yarn gulp
 ```
 

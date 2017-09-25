@@ -65,4 +65,5 @@ gulp.task('watch',function(){
   gulp.watch(['src/fonts/*', 'src/**/fonts/*'],['font']);
 });
 
-gulp.task('default',['js', 'html', 'css', 'img', 'font', 'webserver', 'watch', 'lib']);
+gulp.task('build',['js', 'html', 'css', 'img', 'font', 'lib']);
+gulp.task('default',['js', 'html', 'css', 'img', 'font', 'lib', 'webserver', 'watch' ]);
